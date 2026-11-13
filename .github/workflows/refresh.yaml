@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: ${{ github.repository }}
+  group: ${{ github.repository }}-refresh
   cancel-in-progress: true
 
 env:
